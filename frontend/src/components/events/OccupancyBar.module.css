@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin-top: auto;
+}
+
+.track {
+  height: 6px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--color-line);
+}
+
+.fill {
+  height: 100%;
+  background: var(--color-ink);
+}
+
+.low {
+  background: var(--color-accent);
+}
+
+.caption {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.caption strong {
+  color: var(--color-ink);
+}

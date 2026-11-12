@@ -1,0 +1,16 @@
+.logo {
+  display: grid;
+  grid-template-columns: repeat(4, 6px);
+  gap: 2px;
+}
+
+.cell,
+.highlighted {
+  width: 6px;
+  height: 6px;
+  background: var(--color-ink);
+}
+
+.highlighted {
+  background: var(--color-accent);
+}
